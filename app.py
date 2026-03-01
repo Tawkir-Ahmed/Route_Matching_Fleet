@@ -424,4 +424,5 @@ if st.session_state.opt_state is not None:
                         st.error(f"Chatbot error: {e}")
 
 else:
+
     st.info("Set parameters in the sidebar and click **Run optimization**.")
